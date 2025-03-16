@@ -1,0 +1,92 @@
+body {
+  background: #580909;
+  color: white;
+  font-family: 'Libre Baskerville', serif;
+}
+
+.wrapper {
+  display: flex;
+  margin: 150px auto;
+  width: 70%;
+}
+
+img {
+  display: flex;
+  max-width: 350px;
+  border-radius: 16px;
+  margin: 10px;
+  box-shadow: 0 0 16px rgba(0, 0, 0, 0.5);
+  object-fit: cover;
+  float: left;
+}
+
+h1 {
+  font-size: 80px;
+  text-align: center;
+  background-color: #cfc6ac;
+}
+
+.ievads {
+  font-size: 24px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 25em;
+}
+
+.vairak_info {
+  font-size: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 32em;
+}
+
+ol li {
+  margin-bottom: 1em;
+}
+
+li {
+  padding-left: 20px;
+}
+
+ol li::marker {
+  color: #cfc6ac;
+}
+
+h2 {
+  display: flex;
+  font-size: 40px;
+  color: #cfc6ac;
+}
+
+p {
+  display: flex;
+  font-size: 16px;
+}
+
+
+table,
+td,
+th {
+  border: 1px solid;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+th {
+  background-color: #cfc6ac;
+}
+
+
+a:link,
+a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #cfc6ac;
+  text-decoration: underline;
+}
